@@ -25,7 +25,7 @@ optional arguments:
   --method METHOD
                         Supported: Log-Likelihood, Log-Rank, NPR, DetectGPT, FastGPT, ChatGPT-D, MPU, RADAR
   --dataset DATA_NAME
-                        Supported: Essay, DetectRL, Mix (mixed text scenario), polish and back_translation (paraphrasing attack scenario)
+                        Supported: Essay, DetectRL, Mix (mixed text scenario), Polish and Back_translation (paraphrasing attack scenario)
   --detectLLM TEST_TEXT
                         Supported: 
                           Essay: ChatGPT-turbo, ChatGLM, Dolly, ChatGPT, GPT4All, Claude;
@@ -42,7 +42,7 @@ optional arguments:
   --iter ITER
                         random seed
 
-Example: python benchmark.py --dataset Essay --detectLLM GPT4All --method RADAR --DEVICE cuda:0 --load_path Essay-ChatGPT --iter 0 --reg 10. --sentence_num 3 --sentence_length 1
+Example: python benchmark.py --dataset Essay --detectLLM GPT4All --method RADAR --DEVICE cuda:0 --finetune --iter 0 --reg 10. --sentence_num 3 --sentence_length 1
 ```
 
 ## Inference
