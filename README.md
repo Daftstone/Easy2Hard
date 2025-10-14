@@ -29,7 +29,7 @@ download gpt2-xl model from https://huggingface.co/openai-community/gpt2-xl, and
 download t5-base model from https://huggingface.co/google-t5/t5-base, and move it to save_models/;
 ```
 
-## Train
+## Detector Training
 ```
 usage: python benchmark.py --finetune [--method METHOD] [--dataset DATA_NAME] [--detectLLM TEST_TEXT]
                [--reg REG] [--sentence_num SENTENCE_NUM]
@@ -59,7 +59,7 @@ optional arguments:
 Example: python benchmark.py --dataset Essay --detectLLM GPT4All --method RADAR --DEVICE cuda:0 --finetune --iter 0 --reg 10. --sentence_num 3 --sentence_length 1
 ```
 
-## Inference
+## Detector Inference
 ```
 usage: python benchmark.py [--method METHOD] [--dataset DATA_NAME] [--detectLLM TEST_TEXT]
                [--reg REG] [--sentence_num SENTENCE_NUM]
