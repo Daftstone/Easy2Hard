@@ -4,6 +4,12 @@ This is the source code for the paper "Advancing Machine-Generated Text Detectio
 
 <img width="2343" height="681" alt="image" src="https://github.com/user-attachments/assets/8f62dae3-c735-431a-8eae-8c1b25b7a05d" />
 
+## Introduction
+To counter the misuse of high-quality Machine-Generated Text (MGT) in areas like disinformation campaigns and phishing attacks, developing powerful MGT detection has become crucial. However, current detection methods generally presume the availability of "gold-standard" data labels—an assumption that is increasingly untenable in the current landscape. Specifically, the growing prevalence of human-AI collaborative writing and the leap in the generative capabilities of Large Language Models (LLMs) are making the boundary between human and machine text increasingly ambiguous. This ambiguity introduces inherent inexactness into the supervisory labels used for training. More challenging still is that human ability to recognize MGT is limited (performing only slightly better than chance), whereas existing detectors already exhibit superhuman capabilities, making the provision and assessment of higher-quality supervision a formidable obstacle.
+
+This reality highlights a central challenge in the field of MGT detection: a widespread and inescapable problem of "Inexact Supervision." To confront this challenge, we propose a new training paradigm that opens up an efficient path toward building more powerful MGT detectors.
+
+Our new paradigm is realized through an "Easy-to-Hard" supervision perspective. Its central tenet is that by designing a "Supervisor" model focused on a simpler task where it can achieve higher reliability, it can in turn provide more robust supervisory signals for a "target Detector" that handles more complex tasks. This method subverts the traditional "strong-teacher-for-weak-student" concept in knowledge distillation. Instead, it utilizes a model that is more reliable on a specific, simpler task to empower a target model with stronger overall capabilities. Accordingly, we introduce a universal "Easy-to-Hard" supervision enhancement framework. Experimental results demonstrate that this framework significantly boosts the performance of existing detectors across diverse and complex scenarios—including cross-LLM, cross-domain, hybrid human-AI texts, and under paraphrasing attacks—while introducing almost no additional training latency.
 
 ## Installation
 ```
