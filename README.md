@@ -11,7 +11,7 @@ This reality highlights a central challenge in the field of MGT detection: a wid
 
 Our new paradigm is realized through an "Easy-to-Hard" supervision perspective. Its central tenet is that by designing a "Supervisor" model focused on a simpler task where it can achieve higher reliability, it can in turn provide more robust supervisory signals for a "target Detector" that handles more complex tasks. This method subverts the traditional "strong-teacher-for-weak-student" concept in knowledge distillation. Instead, it utilizes a model that is more reliable on a specific, simpler task to empower a target model with stronger overall capabilities. Accordingly, we introduce a universal "Easy-to-Hard" supervision enhancement framework. Experimental results demonstrate that this framework significantly boosts the performance of existing detectors across diverse and complex scenarios—including cross-LLM, cross-domain, hybrid human-AI texts, and under paraphrasing attacks—while introducing almost no additional training latency.
 
-## Installation
+## Environmental Installation
 ```
 conda env create -f environment.yml;
 conda activate Detection;
