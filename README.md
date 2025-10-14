@@ -15,12 +15,15 @@ Our new paradigm is realized through an "Easy-to-Hard" supervision perspective. 
 ```
 conda env create -f environment.yml;
 conda activate Detection;
-mkdir save_models;
+```
+
+## Model Download
+```
 download gpt2-medium model from https://huggingface.co/openai-community/gpt2-medium, and move it to save_models/;
 download chatgpt-detector-roberta model from https://huggingface.co/Hello-SimpleAI/chatgpt-detector-roberta, and move it to save_models/;
 download roberta-base-openai-detector model from https://huggingface.co/openai-community/roberta-base-openai-detector, and move it to save_models/;
 download AIGC_detector_env1 model from https://huggingface.co/yuchuantian/AIGC_detector_env2, and move it to save_models/;
-download gpt2-xl model from https://huggingface.co/yuchuantian/AIGC_detector_env2, and move it to save_models/;
+download gpt2-xl model from https://huggingface.co/openai-community/gpt2-xl, and move it to save_models/;
 download t5-base model from https://huggingface.co/google-t5/t5-base, and move it to save_models/;
 ```
 
