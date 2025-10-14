@@ -1,6 +1,9 @@
 # Easy to Hard Enhancement
 
-This is the source code for the paper "Advancing Machine-Generated Text Detection from an Easy to Hard Supervision Perspective", which is built on [[MGTBench]](https://github.com/xinleihe/MGTBench).
+This is the source code for the paper "Advancing Machine-Generated Text Detection from an Easy to Hard Supervision Perspective" (NeurIPS 2025), which is built on [[MGTBench]](https://github.com/xinleihe/MGTBench).
+
+<img width="2343" height="681" alt="image" src="https://github.com/user-attachments/assets/8f62dae3-c735-431a-8eae-8c1b25b7a05d" />
+
 
 ## Installation
 ```
