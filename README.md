@@ -13,6 +13,23 @@ Our new paradigm is realized through an "Easy-to-Hard" supervision perspective. 
 
 Experimental results demonstrate that this framework significantly boosts the performance of existing detectors across diverse and complex scenarios—including cross-LLM, cross-domain, hybrid human-AI texts, and under paraphrasing attacks—while introducing almost no additional training latency.
 
+## Supported Methods
+Currently, we support the following methods (continuous updating):
+- Metric-based methods:
+    - Log-Likelihood [[Ref]](https://arxiv.org/abs/1908.09203);
+    - Log-Rank [[Ref]](https://arxiv.org/abs/2301.11305);
+    - DetectGPT [[Ref]](https://arxiv.org/abs/2301.11305);
+    - NPR [[Ref]](https://arxiv.org/abs/2306.05540);
+    - FastGPT [[Ref]](https://arxiv.org/abs/2310.05130);
+- Model-based methods:
+    - ChatGPT Detector [[Ref]](https://arxiv.org/abs/2301.07597);
+    - MPU [[Ref]](https://arxiv.org/abs/2305.18149);
+    - RADAR [[Ref]](https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf);
+
+## Supported Datasets
+- Essay [[Ref]](https://arxiv.org/abs/2305.15047);
+- DetectRL [[Ref]](https://proceedings.neurips.cc/paper_files/paper/2024/file/b61bdf7e9f64c04ec75a26e781e2ad51-Paper-Datasets_and_Benchmarks_Track.pdf);
+
 ## Environmental Installation
 ```
 conda env create -f environment.yml;
