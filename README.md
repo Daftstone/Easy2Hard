@@ -14,7 +14,7 @@ Our new paradigm employs an “easy-to-hard” supervision perspective. The core
 Experimental results indicate that this framework significantly boosts the performance of existing detectors across various complex scenarios, such as cross-LLM, cross-domain, mixed text, and paraphrase attacks, while introducing nearly no extra training latency.
 
 ## Supported Methods
-Currently, we support the following methods (continuous updating):
+The project supports the following methods:
 - Metric-based methods:
     - Log-Likelihood [[Ref]](https://arxiv.org/abs/1908.09203);
     - Log-Rank [[Ref]](https://arxiv.org/abs/2301.11305);
