@@ -11,7 +11,7 @@ This situation highlights a fundamental challenge in MGT detection: the common a
 
 Our new paradigm employs an “easy-to-hard” supervision perspective. The core idea is to leverage an "easy supervisor", designed for a more easy detection task but with greater reliability, to provide robust supervision signals to a "target detector" that handles more complex detection tasks. This approach overturns the traditional “teacher–student” knowledge distillation concept, where a stronger teacher instructs a weaker student, by harnessing a model that excels at a simpler task to bolster a more comprehensive detector. 
 
-Experimental results indicate that this framework significantly boosts the performance of existing detectors across various complex scenarios—such as cross-LLM, cross-domain, mixed text, and paraphrase attacks—while introducing nearly no extra training latency.
+Experimental results indicate that this framework significantly boosts the performance of existing detectors across various complex scenarios, such as cross-LLM, cross-domain, mixed text, and paraphrase attacks, while introducing nearly no extra training latency.
 
 ## Supported Methods
 Currently, we support the following methods (continuous updating):
