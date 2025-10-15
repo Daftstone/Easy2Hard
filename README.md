@@ -37,6 +37,7 @@ conda activate Detection;
 ```
 
 ## Model Download
+Download the necessary models to the save_models folder.
 ```
 download gpt2-medium model from https://huggingface.co/openai-community/gpt2-medium, and move it to save_models/;
 download chatgpt-detector-roberta model from https://huggingface.co/Hello-SimpleAI/chatgpt-detector-roberta, and move it to save_models/;
