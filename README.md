@@ -35,7 +35,7 @@ usage: python benchmark.py --finetune [--method METHOD] [--dataset DATA_NAME] [-
                [--reg REG] [--sentence_num SENTENCE_NUM]
                [--sentence_length SENTENCE_LENGTH] [--iter ITER]
 
-optional arguments:
+arguments:
   --method METHOD
                         Supported: Log-Likelihood, Log-Rank, NPR, DetectGPT, FastGPT, ChatGPT-D, MPU, RADAR
   --dataset DATA_NAME
@@ -65,7 +65,7 @@ usage: python benchmark.py [--method METHOD] [--dataset DATA_NAME] [--detectLLM 
                [--reg REG] [--sentence_num SENTENCE_NUM]
                [--sentence_length SENTENCE_LENGTH] [--iter ITER] [--load_path LOAD_PATH]
 
-optional arguments:
+arguments:
   --method METHOD
                         Supported: Log-Likelihood, Log-Rank, NPR, DetectGPT, FastGPT, ChatGPT-D, MPU, RADAR
   --dataset DATA_NAME
