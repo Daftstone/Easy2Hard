@@ -103,10 +103,10 @@ arguments:
   --iter ITER
                         random seed
   --load_path LOAD_PATH
-                        It is the path where the training model is laoded, and its format is Dataset-LLM, e.g., Essay-GPT4All
+                        It is the path where the training model is loaded, and its format is Dataset-LLM, e.g., Essay-GPT4All
 
 Example: python benchmark.py --dataset Essay --detectLLM GPT4All --method RADAR --DEVICE cuda:0 --load_path Essay-ChatGPT --iter 0 --reg 10. --sentence_num 3 --sentence_length 1
 ```
 
 ## Acknowledgements
-This project is built on [[MGTBench]](https://github.com/xinleihe/MGTBench).
+This project is built upon [[MGTBench]](https://github.com/xinleihe/MGTBench).
